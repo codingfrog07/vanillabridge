@@ -24,4 +24,4 @@ Material Symbols and Icons 에서 필요한 2개의 아이콘을 사용하고, �
 
 ## 배포 주소
 
-[Link](#https://vanillabridge-6pas7mlxa-codingfrog07.vercel.app/)  
+[Link](https://vanillabridge-6pas7mlxa-codingfrog07.vercel.app/)  
