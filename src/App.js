@@ -1,5 +1,10 @@
+import Chat from "./pages/Chat";
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <Chat />
+    </div>
+  );
 }
 
 export default App;

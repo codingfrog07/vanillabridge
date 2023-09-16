@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+## 기술 스택, 기술 선정 이유
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### React
 
-## Available Scripts
+UI를 컴포넌트로 나누는 개발 방식인 React를 사용하면, 컴포넌트의 독립적 관리가 용이하다고 생각해서 선택했습니다. 구현 주제가 채팅 대화창이기 때문에 화면을 보고, 개별적으로 UI 컴포넌트를 생각할 때 데이터 전달 방식에 대해 이해하기 더 좋다고 생각했습니다.
 
-In the project directory, you can run:
+### axios
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+HTTP 요청을 보내고 받는 작업을 비교적 쉽게 관리할 수 있는 라이브러리라서 선택했습니다. API 호출하는 방식과 그 데이터를 이용하는 방식을 이해하기 좋은 형태라서 자주 이용하고 있습니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### styled-components
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+컴포넌트 기반의 스타일링을 지원하기 때문에 선택했습니다. React의 개발 방식이 컴포넌트 기반이라 독립적으로 정의하고 관리 가능한 styled-components가 적합하다고 생각해서 사용했습니다. 또한 컴포넌트와 관련된 스타일을 한눈에 파악 가능하다는 것이 큰 장점이라고 생각합니다.
 
-### `npm run build`
+### react-icons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Material Symbols and Icons 에서 필요한 2개의 아이콘을 사용하고, 추가적으로 필요한 아이콘을 위해 사용했습니다. React 기반 프로젝트에서 사용하기 최적화된 아이콘이라고 생각해서 선택했습니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 배포 주소
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Link](#link)
